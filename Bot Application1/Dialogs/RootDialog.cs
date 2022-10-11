@@ -26,8 +26,8 @@ namespace Bot_Application1.Dialogs
            
             switch (activity.Text)
             {
-                case "Salem": case "salem":
-                    await context.PostAsync($"wa 3alaykom salem");
+                case "Hello Mello": case "hello mello":
+                    await context.PostAsync($"hello mello kind stranger");
                     break;
                 case "cv ?": case "Cv":  case "cv":
                     await context.PostAsync($"el Hamdouli allah w nta ?");
